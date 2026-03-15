@@ -134,3 +134,20 @@ footer p{
 .submit-box button:hover{
     background-color:#a10f22;
 }
+html, body{
+height:100%;
+}
+
+body{
+display:flex;
+flex-direction:column;
+}
+
+section{
+flex:1;
+}
+.need-blood:hover,
+.donate:hover{
+box-shadow:0 4px 12px rgba(0,0,0,0.2);
+transition:0.3s;
+}
