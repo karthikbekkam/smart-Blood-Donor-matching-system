@@ -1,73 +1,69 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>Need Blood - Life Drop</title>
-<link rel="stylesheet" href="css/style.css">
+    <title>Need Blood - Life Drop</title>
+    <link rel="stylesheet" href="css/need.css">
+    <meta charset="UTF-8">
 </head>
 
 <body>
 
 <nav>
-<h1>Life Drop</h1>
-<p>Connecting donors with those in need</p>
+    <h1>Life Drop</h1>
+    <p>Connecting donors with those in need</p>
 </nav>
 
 <section>
-<h2 class="title">Request Blood</h2>
-<p class="subtitle">Please fill the form below to request blood from donors.</p>
-</section>
+    <h2>Need Blood</h2>
+    <p>Fill the form below to request blood.</p>
 
-<section class="form-container">
+    <div class="form-container">
 
-<form class="blood-form">
+        <form>
 
-<div class="grid-3">
+            <div class="grid-2x3">
 
-<input type="text" placeholder="Patient Name" required>
+                <input type="text" placeholder="Full Name" required>
 
-<select required>
-<option value="">Blood Group</option>
-<option>A+</option>
-<option>A-</option>
-<option>B+</option>
-<option>B-</option>
-<option>O+</option>
-<option>O-</option>
-<option>AB+</option>
-<option>AB-</option>
-<option>other</option>
-</select>
+                <input type="tel" placeholder="Phone Number" required>
 
-<input type="number" placeholder="Units Required" required>
+                <select required>
+                    <option value="">Blood Group</option>
+                    <option>A+</option>
+                    <option>B+</option>
+                    <option>O+</option>
+                    <option>AB+</option>
+                    <option>A-</option>
+                    <option>B-</option>
+                    <option>O-</option>
+                    <option>AB-</option>
+                </select>
 
-<input type="date" required>
+                <input type="text" placeholder="City" required>
 
-<input type="text" placeholder="Hospital Name ">
+                <input type="number" placeholder="Units Required" required>
 
-<input type="text" placeholder="City / Location" required>
+                <input type="date" required>
 
-<input type="text" placeholder=" Phone Number 1" required>
+            </div>
 
-<input type="tel" placeholder="Phone Number 2 (Optional)">
+            <textarea class="message-box" placeholder="Additional Message"></textarea>
 
-<input type="email" placeholder="Email (Optional)">
+            <div class="submit-box">
+                <button type="submit">Request Blood</button>
+            </div>
 
-<textarea class="message-box" placeholder="Additional Message (Optional)"></textarea>
+        </form>
 
-</div>
-
-<div class="submit-box">
-<button type="submit">Submit Request</button>
-</div>
-
-</form>
-
+    </div>
 </section>
 
 <footer>
-<p>Made with ❤️ to save lives</p>
-<p>Contact us: LifeDrop@gmail.com</p>
+    <p>Made with ❤️ to save lives</p>
+    <p>Contact us: LifeDrop@gmail.com</p>
 </footer>
 
 </body>
+
 </html>

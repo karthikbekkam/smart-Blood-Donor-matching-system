@@ -1,0 +1,90 @@
+/* Basic Reset */
+*{
+    margin:0;
+    padding:0;
+}
+
+/* Body */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#fff5f5;
+    color:#1a0000;
+}
+
+/* Navbar */
+nav{
+    background-color:#c0152a;
+    padding:15px;
+    text-align:center;   /* changed from flex → NEW method */
+}
+
+/* Group Selector  */
+nav h1, nav p{
+    color:white;
+}
+
+/* Section */
+section{
+    text-align:center;
+    padding:40px;
+}
+
+/* Form Container */
+.form-container{
+    margin-top:20px;
+}
+
+/* Grid Layout  */
+.grid-2x3{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;  /* NEW way instead of repeat */
+    gap:10px;
+    width:60%;
+    margin:auto;
+}
+
+/* Attribute Selector  */
+input[type="text"],
+input[type="tel"],
+input[type="number"],
+input[type="date"],
+select{
+    padding:8px;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+/* Message Box */
+.message-box{
+    width:60%;
+    margin-top:15px;
+    padding:8px;
+    border-radius:5px;
+    border:1px solid #ccc;
+}
+
+/* Button */
+.submit-box{
+    margin-top:15px;
+}
+
+.submit-box button{
+    background-color:#c0152a;
+    color:red;
+    padding:8px 20px;
+    border:none;
+}
+
+/* Hover */
+.submit-box button:hover{
+    background-color:#a10f22;
+}
+
+/* Footer */
+footer{
+    background-color:#c0152a;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:40px;
+}
