@@ -2,152 +2,75 @@ body{
     margin:0;
     padding:0;
     font-family:Arial, Helvetica, sans-serif;
-    background-color:#fff5f5;
-    color:#1a0000;
+    background-color: #fff5f5;
+    color: #1a0000;
+}
+nav {
+    background-color: #c0152a;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-nav{
-    background-color:#c0152a;
-    padding:15px 30px;
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
+nav h1 {
+    color: #ffffff;
+    font-size: 30px;
 }
 
-nav h1{
-    color:#ffffff;
-    font-size:30px;
+nav p {
+    color: #ffcccc;
+    font-size: 15px;
 }
 
-nav p{
-    color:#ffcccc;
-    font-size:15px;
+section {
+    text-align: center;
+    padding: 80px 20px;
 }
 
-section{
-    text-align:center;
-    padding:40px 20px; /* reduced space */
+section h2 {
+    font-size: 42px;
+    color: #c0152a;
+    margin-bottom: 20px;
 }
 
-section h2{
-    font-size:42px;
-    color:#c0152a;
-    margin-bottom:15px;
+section p {
+    font-size: 18px;
+    color: #6b5b5b;
+    max-width: 500px;
+    margin: 0 auto;
 }
 
-section p{
-    font-size:18px;
-    color:#6b5b5b;
-    max-width:500px;
-    margin:0 auto;
+/* Styling the buttons */
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 40px;
+    margin: 10px;
+    font-size: 18px;
+    border-radius: 8px;
 }
 
-/* Buttons */
-
-a{
-    text-decoration:none;
-    display:inline-block;
-    padding:15px 40px;
-    margin:10px;
-    font-size:18px;
-    border-radius:8px;
+.need-blood {
+    background-color: #c0152a;
+    color: #ffffff;
 }
 
-.need-blood{
-    background-color:#c0152a;
-    color:#ffffff;
+.donate {
+    background-color: #ffffff;
+    color: #c0152a;
+    border: 2px solid #c0152a;
+}
+footer {
+    background-color: #c0152a;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 60px;
 }
 
-.donate{
-    background-color:#ffffff;
-    color:#c0152a;
-    border:2px solid #c0152a;
-}
-
-/* Footer */
-
-footer{
-    background-color:#c0152a;
-    color:#ffffff;
-    text-align:center;
-    padding:20px;
-    margin-top:40px;
-}
-
-footer p{
-    font-size:17px;
-    line-height:1;
-}
-
-/* Need Blood Form */
-
-.form-container{
-    width:70%;          /* equal margins left & right */
-    margin:auto;
-    margin-top:10px;    /* moved form up */
-}
-
-.grid-3{
-    display:grid;
-    grid-template-columns:repeat(3,1fr);
-    gap:15px;
-    margin-top:25px;
-}
-
-.grid-3 input,
-.grid-3 select,
-.grid-3 textarea{
-    width:100%;
-    padding:12px;
-    border:1px solid #ccc;
-    border-radius:6px;
-    font-size:15px;
-    box-sizing:border-box;
-}
-
-/* Message box */
-
-.message-box{
-    grid-column:1 / 4;
-    height:110px;
-    resize:none;
-}
-
-/* Submit button */
-
-.submit-box{
-    display:flex;
-    justify-content:flex-end;
-    margin-top:20px;
-}
-
-.submit-box button{
-    background-color:#c0152a;
-    color:white;
-    border:none;
-    padding:12px 28px;
-    font-size:16px;
-    border-radius:6px;
-    cursor:pointer;
-}
-
-.submit-box button:hover{
-    background-color:#a10f22;
-}
-html, body{
-height:100%;
-}
-
-body{
-display:flex;
-flex-direction:column;
-}
-
-section{
-flex:1;
-}
-.need-blood:hover,
-.donate:hover{
-box-shadow:0 4px 12px rgba(0,0,0,0.2);
-transition:0.3s;
+footer p {
+    font-size: 17px;
+    line-height: 1;
 }
